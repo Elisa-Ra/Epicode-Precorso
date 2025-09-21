@@ -1,0 +1,68 @@
+<!--Crea una web page con un form al suo interno per raccogliere dati da parte dell'utente.
+Il form deve contenere degli input fields per ottenere le seguenti informazioni:
+
+- nome (con un type="text")
+- cognome (con un type="text")
+- indirizzo email (con un type="email")
+- password (con un type="password")
+- data di nascita (con un type="date")
+- numero di telefono (con un type="number")
+- qualche checkbox per selezionare i propri gusti musicali (ciascuna con un type="checkbox")
+- accettazione dei termini e condizioni (con un type="radio")
+- bottone type="submit" con la scritta "Invia registrazione" che una volta cliccato faccia apparire un popup con la scritta "Registrazione inviata!"-->
+<!DOCTYPE html>
+ <html> 
+    <head>
+        <title>Form Music Streaming</title> 
+    </head>
+    <body> 
+        <h1>Music Streaming!</h1>
+        <div>
+            <h3>Compila il form per completare la tua registrazione</h3>
+            <form onsubmit="alert('Registrazione inviata!')">
+                <div>
+                    <label for="fnome">Nome:</label><br>
+                    <input type="text" name="fnome" placeholder="Adam"/>
+                </div>
+                <div>
+                    <label for="fcognome">Cognome:</label><br>
+                    <input type="text" name="fcognome" placeholder="Smasher"/>
+                </div>
+                <div>
+                    <label for="femail">Indirizzo email:</label><br>
+                    <input type="email" name="femail" placeholder="adamsmasher@gmail.com"/>
+                </div>
+                <div>
+                    <label for="fpassword">Password:</label><br>
+                    <input type="password" name="fpassword" />
+                </div>
+                <div>
+                    <label for="fnascita">Data di nascita:</label><br>
+                    <input type="date" name="fnascita"/>
+                </div>
+                <div>
+                    <label for="ftelefono">Numero di telefono:</label><br>
+                    <input type="number" name="ftelefono"/>
+                </div>
+                <div>
+                    <p>Genere musicale preferito:</p>
+                    <label for="fpop">Pop</label>
+                    <input type="checkbox" name="fpop"/><br>
+                    <label for="frock">Rock</label>
+                    <input type="checkbox" name="frock"/><br>
+                    <label for="fmetal">Metal</label>
+                    <input type="checkbox" name="fmetal"/><br>
+                    <label for="fjazz">Jazz</label>
+                    <input type="checkbox" name="fjazz"/><br>
+                </div>
+                <div>
+                    <label for="ftermini">Accetto i termini e condizioni:</label><br>
+                    <input type="radio" name="ftermini"/>
+                </div>
+                <div>
+                    <button type="submit">Invia registrazione</button> 
+                </div>
+            </form>
+        </div>
+    </body> 
+</html>
