@@ -1,0 +1,50 @@
+/* Ho aggiunto del css base, soprattutto per centrare gli elementi della pagina */
+body {
+    margin:0px;
+    padding: 0px;
+}
+img {
+    width:15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    width: 50%; 
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+}
+th {
+    background-color: rgb(255, 0, 111);
+    color: antiquewhite;
+}
+button {
+    font-size:100%;
+}
+footer {
+    background-color: rgb(255, 0, 111);
+}
+h1{
+    text-align: center;
+    color: rgb(255, 0, 111);
+    margin-top: 0.2%;
+}
+h3{
+    text-align: center;
+    color: rgb(255, 0, 111);
+}
+.contatti {
+    margin-bottom: 0px;
+    text-align: center;
+    color: antiquewhite;
+    font-size: large;
+}
+ul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
