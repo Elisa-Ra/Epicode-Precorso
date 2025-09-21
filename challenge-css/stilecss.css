@@ -1,0 +1,191 @@
+body {
+    margin:0;
+    font-family: 'Montserrat', sans-serif;;
+}
+.main-section{
+    padding: 20px;
+}
+.image-container { /*index*/
+    height: 500px;
+    background-image: url("Agrigento_TemplesValley_0066.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image-container1 { /*Concordia*/
+    height: 500px;
+    background-image: url("concordia.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image-container2 { /*Giunone*/
+    height: 500px;
+    background-image: url("giunone.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image-container3 { /*Dioscuri*/
+    height: 500px;
+    background-image: url("dioscuri.jpg");
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.image-container4 { /*Ercole*/
+    height: 500px;
+    background-image: url("ercole.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image-container5 { /*Zeus*/
+    height: 500px;
+    background-image: url("zeus.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Prata';
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-family: 'Prata';
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    font-weight: 600;
+    font-style: italic;
+}
+
+#luogo {
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background-color: rgb(67, 165, 241); 
+    background-image: linear-gradient(to right, rgb(67, 165, 241) , rgb(244, 211, 47));
+}
+
+#luogo1 { /*Concordia*/
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background-color: rgb(241, 221, 67); 
+    background-image: linear-gradient(to right, rgb(241, 221, 67) , rgb(0, 186, 71));
+}
+
+#luogo2 { /*Giunone*/
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background-color: rgb(0, 138, 243); 
+    background-image: linear-gradient(to right, rgb(252, 233, 135) , rgb(0, 138, 243));
+}
+
+#luogo3 { /*Dioscuri*/
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background-color: rgb(67, 165, 241); 
+    background-image: linear-gradient(to right, rgb(67, 165, 241) , rgb(23, 196, 0));
+}
+
+#luogo4 { /*Ercole*/
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background-color: rgb(241, 171, 67); 
+    background-image: linear-gradient(to right, rgb(241, 171, 67) , rgb(47, 149, 244));
+}
+
+#luogo5 { /*Zeus*/
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background-color: rgb(181, 133, 0); 
+    background-image: linear-gradient(to right, rgb(181, 133, 0) , rgb(244, 211, 47));
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    border-bottom: 1px #dfdfdf;
+}
+
+ul a {
+    text-decoration: none;
+}
+.lista a:visited {
+    color: rgb(67, 165, 241);
+}
+
+.lista1 a:visited {
+    color: rgb(241, 221, 67);
+}
+
+.lista2 a:visited {
+    color: rgb(0, 138, 243);
+}
+
+.lista3 a:visited {
+    color: rgb(67, 165, 241);
+}
+
+.lista4 a:visited {
+    color: rgb(241, 171, 67);
+}
+
+.lista5 a:visited {
+    color: rgb(181, 133, 0);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 16px;
+}
+
+footer p {
+    text-align: center;
+    margin: auto;
+}
+footer a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin: auto;
+}
